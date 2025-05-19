@@ -3,38 +3,57 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>My Fashion Design</title>
+  <title>Fashion Brand</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
   <header>
-    <h1>My Fashion Design</h1>
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="collections.html">Collections</a>
-      <a href="about.html">About</a>
-      <a href="contact.html">Contact</a>
-    </nav>
+    <div class="container">
+      <h1 class="logo">FashionBrand</h1>
+      <nav>
+        <ul>
+          <li><a href="#">Men</a></li>
+          <li><a href="#">Women</a></li>
+          <li><a href="#">Collections</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
 
-  <main>
-    <section class="hero">
-      <h2>Welcome to My Fashion World</h2>
-      <p>Discover unique styles and exclusive collections.</p>
-    </section>
+  <section class="hero">
+    <div class="hero-text">
+      <h2>Style that defines you.</h2>
+      <p>Discover timeless fashion and modern essentials.</p>
+      <a href="#" class="button">Shop Now</a>
+    </div>
+  </section>
 
-    <section class="featured-designs">
-      <h3>Featured Designs</h3>
-      <div class="gallery">
-        <img src="images/design1.jpg" alt="Elegant Evening Dress" />
-        <img src="images/design2.jpg" alt="Chic Streetwear Look" />
-        <img src="images/design3.jpg" alt="Modern Minimalist Outfit" />
+  <section class="products">
+    <h2>Featured Products</h2>
+    <div class="product-grid">
+      <div class="product">
+        <img src="images/product1.jpg" alt="Product 1" />
+        <h3>Classic White Shirt</h3>
+        <p>$49.99</p>
       </div>
-    </section>
-  </main>
+      <div class="product">
+        <img src="images/product2.jpg" alt="Product 2" />
+        <h3>Navy Blazer</h3>
+        <p>$149.99</p>
+      </div>
+      <div class="product">
+        <img src="images/product3.jpg" alt="Product 3" />
+        <h3>Tailored Trousers</h3>
+        <p>$89.99</p>
+      </div>
+    </div>
+  </section>
 
   <footer>
-    <p>© 2025 My Fashion Design</p>
+    <div class="footer-container">
+      <p>&copy; 2025 FashionBrand. All rights reserved.</p>
+    </div>
   </footer>
 </body>
 </html>
